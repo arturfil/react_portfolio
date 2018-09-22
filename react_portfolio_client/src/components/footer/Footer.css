@@ -1,0 +1,45 @@
+#footer {
+  border-top-color: black;
+  background: rgba(14, 11, 11, 0.865);
+  height: 500px;
+}
+
+#footer p {
+  color: rgb(73, 232, 179);
+}
+
+.footer-contact,
+p {
+  color: rgb(73, 232, 179);
+  border-bottom-color: rgb(73, 232, 179) solid 1px;
+}
+
+.footer-title {
+  padding-top: 100px;
+  color: rgb(73, 232, 179);
+}
+
+.mt-footer {
+  margin-top: 40px;
+}
+
+.footer-block {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer-block,
+p {
+  color: rgb(73, 232, 179);
+}
+
+.footer-line {
+  padding: 10px;
+  color: rgb(73, 232, 179);
+  width: 600px;
+  background: rgb(73, 232, 179) solid 1px;
+}
+
+i {
+  color: rgb(73, 232, 179);
+}

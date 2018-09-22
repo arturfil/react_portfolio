@@ -1,0 +1,52 @@
+nav {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+}
+
+nav {
+  border-bottom: rgb(254, 129, 52) 4px solid;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.a-links {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.logo {
+  margin-right: 10px;
+  height: 60px;
+  width: 95px;
+}
+
+.hov-anim::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 1px;
+  background: rgb(254, 129, 52);
+  transition: width 0.3s;
+}
+
+.hov-anim:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+navbar {
+  position: fixed;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 676px) {
+}
+
+@media only screen and (max-width: 676px) and (min-width: 320px) {
+  .logo {
+    margin-right: 10px;
+    height: 30px;
+    width: 45px;
+  }
+}

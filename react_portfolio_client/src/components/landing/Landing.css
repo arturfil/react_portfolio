@@ -1,0 +1,18 @@
+.mt-landing {
+  margin-top: 250px;
+  font-size: 55px;
+}
+
+.h2-landing {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.landing p {
+  text-transform: uppercase;
+  color: white;
+}
+
+.img-height {
+  max-height: 500px;
+}
