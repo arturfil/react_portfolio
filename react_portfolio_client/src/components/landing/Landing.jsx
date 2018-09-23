@@ -11,7 +11,7 @@ class Landing extends Component {
             <div className="row">
               <div className="col-md-12 text-center">
                 <h2 className="mt-landing h2-landing display-3 mb-4">
-                  Arturo Filio | Web Developer
+                  Arturo Filio | Software Engineer
                 </h2>
                 <p className="lead"> It's all in the detail</p>
               </div>

@@ -6,11 +6,15 @@
 .h2-landing {
   text-transform: uppercase;
   font-weight: 800;
+  letter-spacing: 15px;
 }
 
 .landing p {
   text-transform: uppercase;
   color: white;
+  font-weight: 100;
+  letter-spacing: 15px;
+  font-size: 35px;
 }
 
 .img-height {
