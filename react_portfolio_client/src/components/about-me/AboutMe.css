@@ -1,0 +1,42 @@
+.intro-p {
+  margin-top: 200px;
+  font-size: 40px;
+  font-weight: 800;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+}
+
+.h2-aboutUs {
+  margin-top: 100px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.profile-image {
+  margin-left: 30%;
+  height: 200px;
+  width: 190px;
+  border-radius: 70%;
+}
+
+.paragraphs {
+  margin-top: 80px;
+  text-align: justify;
+}
+
+.paragraphs h2 {
+  margin-top: 80px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.paragraphs p {
+  margin-top: 40px;
+  margin: 20px 10%;
+  color: grey;
+  text-align: justify;
+  font-weight: 200;
+  font-size: 20px;
+}

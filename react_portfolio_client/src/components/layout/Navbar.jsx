@@ -9,12 +9,12 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar mb-4 navbar-expand-sm navbar-dark">
+        <nav className="navbar navbar-expand-sm navbar-dark">
           <div className="container">
             <a
               href="/"
               className="navbar-brand elegant btn-landing"
-              style={{ color: 'rgb(43, 203, 152)' }}
+              style={{ color: 'white' }}
             >
               Arturo Filio
             </a>
@@ -31,7 +31,7 @@ class Navbar extends Component {
                   <Link
                     className="nav-link hov-anim a-links"
                     to="/"
-                    style={{ color: 'rgb(43, 203, 152)' }}
+                    style={{ color: 'white' }}
                   >
                     Home
                   </Link>
@@ -39,8 +39,8 @@ class Navbar extends Component {
                 <li className="nav-item">
                   <Link
                     className="nav-link hov-anim a-links"
-                    to="/aboutUs"
-                    style={{ color: 'rgb(43, 203, 152)' }}
+                    to="/aboutMe"
+                    style={{ color: 'white' }}
                   >
                     About Me
                   </Link>
@@ -48,8 +48,8 @@ class Navbar extends Component {
                 <li className="nav-item">
                   <Link
                     className="nav-link hov-anim a-links"
-                    to="/services"
-                    style={{ color: 'rgb(43, 203, 152)' }}
+                    to="/myServices"
+                    style={{ color: 'white' }}
                   >
                     Services
                   </Link>
@@ -58,16 +58,16 @@ class Navbar extends Component {
                   <Link
                     to="/placeOrders"
                     className="nav-link hov-anim a-links"
-                    style={{ color: 'rgb(43, 203, 152)' }}
+                    style={{ color: 'white' }}
                   >
                     Blog
                   </Link>
                 </li>
                 <li className="nav-item ">
                   <Link
-                    to="/contactUs"
+                    to="/contactMe"
                     className="nav-link hov-anim a-links"
-                    style={{ color: 'rgb(43, 203, 152)' }}
+                    style={{ color: 'white' }}
                   >
                     Contact Me
                   </Link>

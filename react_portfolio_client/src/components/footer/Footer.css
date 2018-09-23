@@ -1,22 +1,22 @@
 #footer {
-  border-top-color: black;
+  border-top: solid 3px rgb(56, 213, 187);
   background: rgba(14, 11, 11, 0.865);
-  height: 500px;
+  min-height: 500px;
 }
 
 #footer p {
-  color: rgb(73, 232, 179);
+  color: white;
 }
 
 .footer-contact,
 p {
-  color: rgb(73, 232, 179);
-  border-bottom-color: rgb(73, 232, 179) solid 1px;
+  color: white;
+  border-bottom-color: white;
 }
 
 .footer-title {
   padding-top: 100px;
-  color: rgb(73, 232, 179);
+  color: white;
 }
 
 .mt-footer {
@@ -30,16 +30,16 @@ p {
 
 .footer-block,
 p {
-  color: rgb(73, 232, 179);
+  color: white;
 }
 
 .footer-line {
   padding: 10px;
-  color: rgb(73, 232, 179);
+  color: white;
   width: 600px;
   background: rgb(73, 232, 179) solid 1px;
 }
 
 i {
-  color: rgb(73, 232, 179);
+  color: white;
 }

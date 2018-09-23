@@ -2,8 +2,10 @@ body {
   font-family: 'Montserrat';
 }
 
-img {
-  width: 100;
+.basic {
+  border-color: black;
+  color: black;
+  width: 40px;
 }
 
 .landing {
@@ -12,8 +14,14 @@ img {
   background-size: cover;
   background-position: center;
   height: 700px;
-  margin-top: -24px;
-  margin-bottom: -50px;
+}
+
+.about-us {
+  position: relative;
+  background: url('./img/miami_wallpaper.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
 }
 
 .dark-overlay {

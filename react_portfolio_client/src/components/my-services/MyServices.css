@@ -1,0 +1,42 @@
+.s-title {
+  margin-top: 80px;
+  text-align: justify;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-size: 50px;
+}
+
+.p-title {
+  text-align: justify;
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  color: grey;
+}
+
+.services-p {
+  margin-top: 40px;
+  margin: 20px 10%;
+  color: grey;
+  text-align: justify;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.services-block {
+  margin: 40px 0;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.s-image {
+  height: 400px;
+  width: 500px;
+}
