@@ -16,7 +16,7 @@ class Footer extends Component {
             <div className="row">
               <div className="col-md-4 col-4">
                 <a href="">
-                  <i className="fab fa-3x fa-facebook" />
+                  <i className="fab fa-3x fa-youtube" />
                 </a>
               </div>
               <div className="col-md-4 col-4">
