@@ -56,11 +56,11 @@ class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/placeOrders"
+                    to="/myProjects"
                     className="nav-link hov-anim a-links"
                     style={{ color: 'white' }}
                   >
-                    Blog
+                    Projects
                   </Link>
                 </li>
                 <li className="nav-item ">
