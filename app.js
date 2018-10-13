@@ -35,7 +35,7 @@ app.use(passport.initialize());
 // Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {
   // Set static folder
-  app.use(express.static('react_portfolio_client'));
+  app.use(express.static('react_portfolio_client/build'));
 
   app.get('*', (req, res) => {
     res.sendFile(
