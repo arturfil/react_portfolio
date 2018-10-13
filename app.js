@@ -33,7 +33,7 @@ app.use(passport.initialize());
 // app.use routes
 
 // Serve static assets if in production
-if (process.env.NODE_ENV === 'poduction') {
+if (process.env.NODE_ENV === 'production') {
   // Set static folder
   app.use(express.static('react_portfolio_client'));
 
