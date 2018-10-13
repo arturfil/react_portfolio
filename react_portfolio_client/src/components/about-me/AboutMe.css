@@ -13,10 +13,15 @@
   text-align: center;
 }
 
+.h2-subTitle {
+  text-align: center;
+  margin: 40px 0;
+}
+
 .profile-image {
   margin-left: 30%;
   height: 200px;
-  width: 150px;
+  width: 200px;
   border-radius: 70%;
 }
 
