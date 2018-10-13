@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 
 import './Projects.css';
-import machine1 from '../../img/mexico_city_bellas_artes.jpeg';
-import machine2 from '../../img/mexico_city_bellas_artes.jpeg';
-import machine3 from '../../img/mexico_city_bellas_artes.jpeg';
-import machine4 from '../../img/mexico_city_bellas_artes.jpeg';
-import machine5 from '../../img/mexico_city_bellas_artes.jpeg';
-import machine6 from '../../img/mexico_city_bellas_artes.jpeg';
-import machine7 from '../../img/mexico_city_bellas_artes.jpeg';
-import machine8 from '../../img/mexico_city_bellas_artes.jpeg';
-import machine9 from '../../img/mexico_city_bellas_artes.jpeg';
+import machine1 from '../../img/aaexport.png';
+import machine2 from '../../img/gruposeri.png';
+import machine3 from '../../img/devconnector.png';
+import machine4 from '../../img/spottit.png';
+import machine5 from '../../img/usedmkt.png';
+import machine6 from '../../img/burgerbuilder.png';
 
 class Projects extends Component {
   render() {
@@ -27,7 +24,7 @@ class Projects extends Component {
             </div>
           </div>
         </div>
-        <div className="container info-block">
+        <div className="fluid-container info-block">
           <h2 className="text-center title">My Projects</h2>
           <hr className="basic" />
           <p className="text-center intro">
@@ -51,29 +48,103 @@ class Projects extends Component {
           </div>
 
           <div className="row text-center">
-            <div className="col-md-4 col-sm-12 col-12">
-              <img className="img-size m2" src={machine1} alt="" />
+            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+              <a href="http://aaexport.co" target="_blank">
+                <img
+                  className="img-size m2"
+                  src={machine1}
+                  alt=""
+                  ref="aaexport.co"
+                />
+              </a>
             </div>
 
-            <div className="col-md-4 col-sm-12 col-12">
-              <img className="img-size m2" src={machine2} alt="" />
+            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+              <a href="http://www.gruposeri.mx" target="_blank">
+                <img
+                  className="img-size m2"
+                  src={machine2}
+                  alt=""
+                  ref="www.gruposeri.mx"
+                />
+              </a>
             </div>
 
-            <div className="col-md-4 col-sm-12 col-12">
-              <img className="img-size m2" src={machine3} alt="" />
+            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+              <a href="https://devconector.herokuapp.com/" target="_blank">
+                <img
+                  className="img-size m2"
+                  src={machine3}
+                  alt=""
+                  ref="https://devconector.herokuapp.com"
+                />
+              </a>
             </div>
           </div>
           <div className="row text-center">
-            <div className="col-md-4 col-sm-12 col-12">
-              <img className="img-size m2" src={machine4} alt="" />
+            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+              <a href="https://spottit.herokuapp.com/" target="_blank">
+                <img
+                  className="img-size m2"
+                  src={machine4}
+                  alt=""
+                  ref="https://spottit.herokuapp.com"
+                />
+              </a>
             </div>
 
-            <div className="col-md-4 col-sm-12 col-12">
-              <img className="img-size m2" src={machine5} alt="" />
+            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+              <a href="http://usedmkt.co" target="_blank">
+                <img
+                  className="img-size m2"
+                  src={machine5}
+                  alt=""
+                  ref="usedmkt.co"
+                />
+              </a>
             </div>
 
-            <div className="col-md-4 col-sm-12 col-12">
-              <img className="img-size m2" src={machine6} alt="" />
+            {/* <div
+              className="flip-container"
+              ontouchstart="this.classList.toggle('hover');"
+            >
+              <div className="flipper">
+                <div className="front">
+                  <div className="container">
+                    <h4>Contact_name</h4>
+                    <p>
+                      <i className="large material-icons special">
+                        account_circle
+                      </i>
+                    </p>
+                    <p>
+                      <i className=" material-icons">face</i>5 Users Online
+                    </p>
+                    <p className="bottom">Online</p>
+                  </div>
+                </div>
+                <div className="back">
+                  <div className="container">
+                    <p>
+                      User online correspond to people connected on your network
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div> */}
+
+            <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+              <a
+                href="https://burger-builder-6dbc5.firebaseapp.com/"
+                target="_blank"
+              >
+                <img
+                  className="img-size m2"
+                  src={machine6}
+                  alt=""
+                  ref="https://burger-builder-6dbc5.firebaseapp.com/"
+                />
+              </a>
             </div>
           </div>
         </div>
