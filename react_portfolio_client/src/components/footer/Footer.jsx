@@ -16,7 +16,7 @@ class Footer extends Component {
             <div className="row">
               <div className="col-md-4 col-4">
                 <a href="">
-                  <i className="fab fa-3x fa-youtube" />
+                  <i className="fab fa-3x fa-twitter" />
                 </a>
               </div>
               <div className="col-md-4 col-4">
@@ -25,8 +25,8 @@ class Footer extends Component {
                 </a>
               </div>
               <div className="col-md-4 col-4">
-                <a href="">
-                  <i className="fab fa-3x fa-twitter" />
+                <a href="http://www.youtube.com/user/arturfil" target="_blank">
+                  <i className="fab fa-3x fa-youtube" />
                 </a>
               </div>
             </div>
