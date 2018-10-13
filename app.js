@@ -6,14 +6,11 @@ const path = require('path');
 
 const app = express();
 
-// set api routes
-app.get('/', (req, res, next) => {
-  res.send('jo');
-});
-
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+// set api routes
 
 // DB Config
 const db = require('./config/keys.js').mongoUri;
