@@ -15,17 +15,20 @@ class Footer extends Component {
           <div className="container footer-block">
             <div className="row">
               <div className="col-md-4 col-4">
-                <a href="">
+                <a href="https://twitter.com/arturfilio" target="_blank">
                   <i className="fab fa-3x fa-twitter" />
                 </a>
               </div>
               <div className="col-md-4 col-4">
-                <a href="">
+                <a
+                  href="https://www.linkedin.com/in/arturofiliovilla/"
+                  target="_blank"
+                >
                   <i className="fab fa-3x fa-linkedin" />
                 </a>
               </div>
               <div className="col-md-4 col-4">
-                <a href="http://www.youtube.com/user/arturfil" target="_blank">
+                <a href="https://www.youtube.com/user/arturfil" target="_blank">
                   <i className="fab fa-3x fa-youtube" />
                 </a>
               </div>
